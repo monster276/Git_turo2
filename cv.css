@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana,sans-serif;
+}
+.container{
+    max-width: 70%;
+    
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+.container .sidebar{
+    flex: 1;
+    
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+.container .leftside{
+    flex: 3;
+    background-color: grey;
+    
+}
+.container .sidebar .image img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+.container .sidebar ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.container .sidebar ul li{
+    margin-bottom: 15px;
+    color: grey;
+}
+.container .sidebar ul li i{
+    color: rgb(7, 165, 152);
+}
+.container .sidebar .skill{
+    border-top: 1px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    color: grey;
+}
+.container .sidebar .skill .pts, .html, .js, .css{
+    margin-top: 5px;
+    margin-bottom: 7px;
+    height: 20px;
+    width: 95%;
+    background-color:rgba(235, 223, 223, 0.89);
+    border-radius: 10px;
+}
+.container .sidebar .skill .pts .ptspercent, .htmlpercent, .jspercent, .csspercent{
+    height: 20px;
+    text-align: center;
+    background-color:rgb(7, 165, 152) ;
+    color: white;
+    border-radius: 10px;
+    
+}
+.container .sidebar .skill .pts .ptspercent{
+    width: 90%;
+}
+.container .sidebar .skill .js .jspercent{
+    width: 70%;
+}
+.container .sidebar .skill .html .htmlpercent{
+    width: 85%;
+}
+.container .sidebar .skill .css .csspercent{
+    width: 87%;
+}
+.container .sidebar .language{
+    border-top: 1px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    color: grey;
+}
+.container .sidebar .language .Eng, .Span, .Japanese{
+    margin-top: 5px;
+    margin-bottom: 7px;
+    height: 20px;
+    width: 95%;
+    background-color:rgba(235, 223, 223, 0.89);
+    border-radius: 10px;
+}
+.container .sidebar .language .Eng .Engpercent, .Spanpercent, .Jppercent{
+    height: 20px;
+    text-align: center;
+    background-color:rgb(7, 165, 152) ;
+    color: white;
+    border-radius: 10px;
+}
+.container .sidebar .language .Eng .Engpercent{
+    width: 70%;
+}
+.container .sidebar .language .Span .Spanpercent{
+    width: 80%;
+}
+.container .sidebar .language .Japanese .Jppercent{
+    width: 85%;
+}
+.container .leftside{
+    padding-left: 5px;
+   
+}
+.container .leftside .work{
+    background-color: white;
+}
+.container .leftside .work i{
+    color: rgb(7, 165, 152);
+}
+.container .leftside .work h1{
+    font-weight: normal;
+    margin-left: 5px;
+}
+.container .leftside .work h3{
+    font-weight: normal;
+    margin-top: 30px;
+    margin-left:25px ;
+}
+.container .leftside .work h4{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left:25px ;
+}
+.container .leftside .work span{
+    background-color: rgb(7, 165, 152);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.container .leftside .work p{
+    margin-top: 10px;
+    margin-left:25px ;
+    margin-right: 25px;
+    border-bottom: 1px solid grey;
+    padding-bottom:30px ;
+}
+.container .leftside .edu{
+    margin-top: 10px;
+    background-color: white;
+    font-weight: normal;
+}
+.container .leftside .edu i{
+    color: rgb(7, 165, 152);
+}
+.container .leftside .edu h1{
+    font-weight: normal;
+}
+.container .leftside .edu h4{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left:25px ;
+}
+.container .leftside .edu h3{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left:25px ;
+}
+.container .leftside .edu p{
+    margin-top: 10px;
+    margin-left:25px ;
+    margin-right: 25px;
+    border-bottom: 1px solid grey;
+    padding-bottom:30px ;
+}
+.footer{
+    background-color: rgb(7, 165, 152);
+    height: 100px;
+    display: flex;
+    flex-direction:  column;
+    color: white;
+    padding-top: 5px;
+    
+}
+.footer p{
+    margin:  0 auto;
+}
+.footer .social{
+    margin:  0 auto;
+    margin-top: 10px;
+}
+.footer .pw{
+    margin:  0 auto;
+    margin-top: 10px;
+}
